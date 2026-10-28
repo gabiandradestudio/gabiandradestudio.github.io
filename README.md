@@ -45,8 +45,8 @@ As festas aparecem em ordem de data, mostram a contagem de dias e **somem sozinh
 
 ⚠️ Mantenha as aspas e as vírgulas no fim de cada linha, como nos exemplos. Se a página ficar em branco depois de uma edição, quase sempre é uma vírgula ou aspa faltando.
 
-## Publicar no GitHub Pages
+## Publicação (Netlify)
 
-1. No repositório: **Settings → Pages**.
-2. Em *Source*, escolha **Deploy from a branch**, a branch principal e a pasta `/ (root)`.
-3. O endereço fica parecido com `https://marciodorthjr.github.io/Site-na-bio-gabi/`. É só colar esse link na bio do Instagram.
+O site fica em **https://gabiandradestudio.netlify.app**, publicado pelo Netlify a partir deste repositório. Toda alteração salva aqui no GitHub atualiza o site sozinha em cerca de 1 minuto.
+
+Configuração usada no Netlify: branch `claude/friendly-rubin-mn032v`, sem comando de build, pasta de publicação vazia (raiz).
