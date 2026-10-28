@@ -7,7 +7,7 @@ Página única para o link da bio do Instagram (@gabiandradestudio), feita para 
 | Arquivo | Para que serve |
 |---|---|
 | `config.js` | **Todo o conteúdo**: textos, preços, festas, mensagens do WhatsApp, endereço. É o único arquivo que precisa ser editado no dia a dia. |
-| `images/logo-ga.png` | Logo GA (topo da página). |
+| `images/logo-ga.jpg` | Logo GA (topo da página). |
 | `images/gabi.jpg` | Foto da Gabi (aparece no círculo). De preferência quadrada, 600×600 px ou maior. |
 | `index.html`, `style.css`, `script.js` | Estrutura, visual e funcionamento. Não precisam ser editados. |
 

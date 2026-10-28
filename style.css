@@ -44,7 +44,22 @@ a { color: inherit; text-decoration: none; }
 /* ===== Topo ===== */
 .topo { text-align: center; margin-bottom: 26px; }
 
-.logo { display: block; height: 42px; width: auto; margin: 0 auto 20px; }
+.logo {
+  display: block;
+  width: 220px;
+  height: auto;
+  margin: -14px auto 2px;
+  /* funde o fundo escuro da logo com o fundo da página */
+  -webkit-mask-image:
+    linear-gradient(to right, transparent, #000 14%, #000 86%, transparent),
+    linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to right, transparent, #000 14%, #000 86%, transparent),
+    linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
+  mask-composite: intersect;
+  mix-blend-mode: lighten;
+}
 
 .logo-texto {
   display: block;

@@ -22,7 +22,7 @@ const SITE = {
   frase: "Bora ficar ainda mais linda? 💖",
 
   /* Fotos: coloque os arquivos na pasta "images" com estes nomes. */
-  logo: "images/logo-ga.png",
+  logo: "images/logo-ga.jpg",
   foto: "images/gabi.jpg",
 
   /* ---------- Contatos ---------- */
